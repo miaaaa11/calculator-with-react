@@ -3,8 +3,8 @@ import { useState } from 'react';
 
 function App() {
   const [input, setInput] = useState('');
-  const [result, setResult] = useState('');
-  // const setResult = useState(''); error ???
+  const [result, setResult] = useState('');//useState? 
+  // const setResult = useState(''); error ????
 
   const ops = ['/', '*', '+', '-', '.'];
 
